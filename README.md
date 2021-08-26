@@ -5,5 +5,5 @@ Docker container for tosca-parser
 
 
 ```
-docker run -v $PWD/templates:/templates marica/tosca-parser:latest --template-file /templates/vm.yaml
+docker run -v $PWD/templates:/templates infntutorial/tosca-parser:latest --template-file /templates/vm.yaml
 ```
